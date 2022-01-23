@@ -8,7 +8,7 @@ const { phoneNumberFormatter } = require("./helpers/formatter");
 const fs = require("fs");
 
 // Instantiate service
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
